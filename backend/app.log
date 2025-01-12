@@ -1,0 +1,15 @@
+2025-01-12 16:52:11,528 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-01-12 16:55:59,304 - main - INFO - Login attempt for user: testuser
+2025-01-12 16:55:59,306 - main - INFO - Successful login for user: testuser
+2025-01-12 17:06:48,652 - main - INFO - Login attempt for user: testuser
+2025-01-12 17:06:48,655 - main - INFO - Successful login for user: testuser
+2025-01-12 17:09:17,234 - main - INFO - Login attempt for user: testuser
+2025-01-12 17:09:17,237 - main - INFO - Successful login for user: testuser
+2025-01-12 17:19:45,568 - main - INFO - Login attempt for user: testuser
+2025-01-12 17:19:45,569 - main - INFO - Successful login for user: testuser
+2025-01-12 17:19:52,275 - main - INFO - Chat message received from user: testuser
+2025-01-12 17:19:52,275 - main - INFO - Response sent to user: testuser
