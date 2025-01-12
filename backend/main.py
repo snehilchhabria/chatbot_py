@@ -97,8 +97,16 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
 async def chat_endpoint(message: Message, current_user: str = Depends(get_current_user)):
     logger.info(f"Chat message received from user: {current_user}")
 
-    # Simple echo response for demonstration
-    response = f"Echo: {message.content}"
+    # Simple responses based on message content
+    if "hello" in message.content.lower():
+        response = "Hello! How can I assist you today?"
+    elif "bye" in message.content.lower():
+        response = "Goodbye! Have a great day!"
+    elif "how are you" in message.content.lower():
+        response = "I'm doing well, thank you for asking! How can I help you?"
+    else:
+        response = "I'm sorry, I didn't understand that. Can you try asking something else?"
+
     logger.info(f"Response sent to user: {current_user}")
 
     return {"response": response}
