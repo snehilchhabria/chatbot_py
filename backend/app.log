@@ -13,3 +13,47 @@ pip install python-multipart
 2025-01-12 17:19:45,569 - main - INFO - Successful login for user: testuser
 2025-01-12 17:19:52,275 - main - INFO - Chat message received from user: testuser
 2025-01-12 17:19:52,275 - main - INFO - Response sent to user: testuser
+2025-01-12 18:12:33,401 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:12:33,410 - main - INFO - Successful login for user: testuser
+2025-01-12 18:12:41,707 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:12:41,708 - main - INFO - Response sent to user: testuser
+2025-01-12 18:12:44,449 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:12:44,452 - main - INFO - Response sent to user: testuser
+2025-01-12 18:12:48,592 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:12:48,593 - main - INFO - Response sent to user: testuser
+2025-01-12 18:13:02,847 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:13:02,849 - main - INFO - Successful login for user: testuser
+2025-01-12 18:13:07,830 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:13:07,831 - main - INFO - Response sent to user: testuser
+2025-01-12 18:14:50,474 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:14:50,476 - main - INFO - Successful login for user: testuser
+2025-01-12 18:14:56,280 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:14:56,281 - main - INFO - Response sent to user: testuser
+2025-01-12 18:16:59,406 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:16:59,408 - main - INFO - Successful login for user: testuser
+2025-01-12 18:17:03,969 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:17:03,970 - main - INFO - Response sent to user: testuser
+2025-01-12 18:17:06,561 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:17:06,562 - main - INFO - Response sent to user: testuser
+2025-01-12 18:17:33,850 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:17:33,851 - main - INFO - Response sent to user: testuser
+2025-01-12 18:26:23,961 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:26:23,962 - main - INFO - Successful login for user: testuser
+2025-01-12 18:26:28,019 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:26:28,020 - main - INFO - Response sent to user: testuser
+2025-01-12 18:26:30,005 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:26:30,007 - main - INFO - Response sent to user: testuser
+2025-01-12 18:26:35,933 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:26:35,934 - main - INFO - Response sent to user: testuser
+2025-01-12 18:26:38,173 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:26:38,176 - main - INFO - Response sent to user: testuser
+2025-01-12 18:26:43,016 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:26:43,018 - main - INFO - Response sent to user: testuser
+2025-01-12 18:36:43,861 - main - INFO - Login attempt for user: testuser
+2025-01-12 18:36:43,864 - main - INFO - Successful login for user: testuser
+2025-01-12 18:36:48,225 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:36:48,227 - main - INFO - Response sent to user: testuser
+2025-01-12 18:36:50,330 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:36:50,332 - main - INFO - Response sent to user: testuser
+2025-01-12 18:36:53,311 - main - INFO - Chat message received from user: testuser
+2025-01-12 18:36:53,313 - main - INFO - Response sent to user: testuser

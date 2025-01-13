@@ -1,5 +1,5 @@
 import React, { useState, useReducer, useContext, createContext } from 'react';
-import ReactDOM from 'react-dom/client'; // Updated import to 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 
 const API_URL = 'http://localhost:8000'; // Backend API URL
 
@@ -51,7 +51,6 @@ const ChatProvider = ({ children }) => {
   const setError = (error) => dispatch({ type: Actions.SET_ERROR, payload: error });
   const setLoading = (isLoading) => dispatch({ type: Actions.SET_LOADING, payload: isLoading });
 
-  // API call function for login
   const login = async (username, password) => {
     setLoading(true);
     setError('');
@@ -76,7 +75,6 @@ const ChatProvider = ({ children }) => {
     }
   };
 
-  // API call function for chat
   const sendMessage = async (message) => {
     if (!message.trim()) return;
     addMessage({ role: 'user', content: message });
@@ -92,7 +90,6 @@ const ChatProvider = ({ children }) => {
       const data = await response.json();
       addMessage({ role: 'assistant', content: data.response });
     } catch (error) {
-      console.error('Chat error:', error);
       addMessage({ role: 'assistant', content: 'Sorry, there was an error processing your request.' });
     }
   };
@@ -128,10 +125,10 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-blue-400 to-indigo-500">
       <div className="w-full max-w-md space-y-8 rounded-xl bg-white p-10 shadow-lg">
         <div>
-          <h2 className="text-center text-3xl font-bold tracking-tight">Sign in to ChatBot</h2>
+          <h2 className="text-center text-3xl font-extrabold text-gray-900">Sign in to ChatBot</h2>
         </div>
         {error && <Alert>{error}</Alert>}
         <form className="mt-8 space-y-6" onSubmit={handleLogin}>
@@ -140,7 +137,7 @@ const LoginForm = () => {
               <input
                 type="text"
                 required
-                className="relative block w-full rounded-md border p-2"
+                className="relative block w-full rounded-md border border-gray-300 p-2 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
@@ -150,7 +147,7 @@ const LoginForm = () => {
               <input
                 type="password"
                 required
-                className="relative block w-full rounded-md border p-2"
+                className="relative block w-full rounded-md border border-gray-300 p-2 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -189,38 +186,34 @@ const ChatInterface = () => {
 
   return (
     <div className="flex h-screen flex-col bg-gray-100">
-      <div className="flex items-center justify-between bg-white p-4 shadow">
+      <div className="flex items-center justify-between bg-blue-600 p-4 shadow-lg text-white">
         <h1 className="text-xl font-bold">ChatBot</h1>
         <button onClick={logout} className="rounded bg-red-500 px-4 py-2 text-white hover:bg-red-600">
           Logout
         </button>
       </div>
 
-      <div className="flex-1 overflow-auto p-4">
-        <div className="space-y-4">
-          {messages.map((message, index) => (
-            <div key={index} className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-              <div className={`rounded-lg px-4 py-2 ${message.role === 'user' ? 'bg-blue-500 text-white' : 'bg-white text-gray-800'} max-w-[70%] shadow`}>
-                {message.content}
-              </div>
+      <div className="flex-1 overflow-auto p-4 space-y-4">
+        {messages.map((message, index) => (
+          <div key={index} className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+            <div className={`rounded-lg px-4 py-2 ${message.role === 'user' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'} max-w-[70%] shadow-lg`}>
+              {message.content}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
 
-      <form onSubmit={handleSendMessage} className="border-t bg-white p-4">
-        <div className="flex space-x-4">
-          <input
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            className="flex-1 rounded-lg border p-2"
-            placeholder="Type your message..."
-          />
-          <button type="submit" className="rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-600">
-            Send
-          </button>
-        </div>
+      <form onSubmit={handleSendMessage} className="border-t bg-white p-4 flex items-center">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className="flex-1 rounded-lg border border-gray-300 p-2"
+          placeholder="Type your message..."
+        />
+        <button type="submit" className="ml-2 rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-600">
+          Send
+        </button>
       </form>
     </div>
   );
@@ -251,3 +244,4 @@ root.render(
     <App />
   </ChatProvider>
 );
+export default App;
