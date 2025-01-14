@@ -57,3 +57,57 @@ pip install python-multipart
 2025-01-12 18:36:50,332 - main - INFO - Response sent to user: testuser
 2025-01-12 18:36:53,311 - main - INFO - Chat message received from user: testuser
 2025-01-12 18:36:53,313 - main - INFO - Response sent to user: testuser
+2025-01-13 23:08:20,912 - main - INFO - Login attempt for user: testuser 
+2025-01-13 23:08:20,913 - main - WARNING - Failed login attempt for user: testuser 
+2025-01-13 23:08:27,668 - main - INFO - Login attempt for user: testuser 
+2025-01-13 23:08:27,669 - main - WARNING - Failed login attempt for user: testuser 
+2025-01-13 23:08:29,505 - main - INFO - Login attempt for user: testuser 
+2025-01-13 23:08:29,506 - main - WARNING - Failed login attempt for user: testuser 
+2025-01-13 23:08:30,321 - main - INFO - Login attempt for user: testuser 
+2025-01-13 23:08:30,322 - main - WARNING - Failed login attempt for user: testuser 
+2025-01-13 23:09:27,238 - main - INFO - Login attempt for user: testuser
+2025-01-13 23:09:27,239 - main - INFO - Successful login for user: testuser
+2025-01-13 23:09:32,228 - main - INFO - Chat message received from user: testuser
+2025-01-13 23:09:32,228 - main - INFO - Response sent to user: testuser
+2025-01-13 23:09:36,392 - main - INFO - Chat message received from user: testuser
+2025-01-13 23:09:36,393 - main - INFO - Response sent to user: testuser
+2025-01-14 00:20:01,511 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:20:01,513 - main - INFO - Successful login for user: testuser
+2025-01-14 00:21:09,931 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:21:09,931 - main - INFO - Successful login for user: testuser
+2025-01-14 00:21:11,235 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:21:11,236 - main - INFO - Successful login for user: testuser
+2025-01-14 00:21:20,623 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:21:20,624 - main - INFO - Successful login for user: testuser
+2025-01-14 00:24:19,108 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:24:19,109 - main - INFO - Successful login for user: testuser
+2025-01-14 00:24:30,540 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:24:30,541 - main - INFO - Successful login for user: testuser
+2025-01-14 00:24:35,639 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:24:35,640 - main - INFO - Successful login for user: testuser
+2025-01-14 00:24:36,491 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:24:36,491 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:39,063 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:39,064 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:44,075 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:44,076 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:45,396 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:45,397 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:47,108 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:47,109 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:50,077 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:50,078 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:50,990 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:50,991 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:51,164 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:51,165 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:51,273 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:51,274 - main - INFO - Successful login for user: testuser
+2025-01-14 00:25:51,498 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:25:51,499 - main - INFO - Successful login for user: testuser
+2025-01-14 00:26:48,580 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:26:48,581 - main - WARNING - Failed login attempt for user: testuser
+2025-01-14 00:26:57,453 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:26:57,454 - main - WARNING - Failed login attempt for user: testuser
+2025-01-14 00:27:06,028 - main - INFO - Login attempt for user: testuser
+2025-01-14 00:27:06,029 - main - INFO - Successful login for user: testuser

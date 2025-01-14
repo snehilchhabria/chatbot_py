@@ -24,13 +24,15 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
-# CORS middleware with more restrictive settings for development
+from fastapi.middleware.cors import CORSMiddleware
+
+# Add CORS middleware with broader settings for development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Allow only the specific origin for frontend
+    allow_origins=["http://localhost:3001"],  # Allow frontend URL
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],  # Allow all HTTP methods (POST, GET, etc.)
+    allow_headers=["*"],  # Allow all headers
 )
 
 # Secret key for JWT
